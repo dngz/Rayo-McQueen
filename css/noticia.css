@@ -1,0 +1,36 @@
+.nav-link{
+    font-size: large;
+}
+
+#noticia .contenedor img{
+    width: 1200px;
+    height: 600px;
+    border: solid 2px black;
+}
+
+#noticia .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#noticia {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+
+#noticia .contenedor article{
+    margin: 20px;
+}
+
+.container{
+    background-color: yellowgreen;
+    width: auto;
+}
+
+#noticia .contenedor h4{
+    text-align: left;
+    margin-top: 5px;
+    font-size: medium;
+}

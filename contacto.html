@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecánico Rayo McQueen</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacto.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-light" style="background-color: yellowgreen;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/elrayo.png" alt="logo" id="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="registrarse.html">Registro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="login.html">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contactanos">
+        <span style="color: black;">CONTÁCTANOS</span>
+
+        <div class="contacto-input">
+            <script src="js/user.js"></script>
+            <script src="js/DaoUser.js"></script>
+            <form>
+                <h5>Nombre completo</h5>
+                <input class="col-p" placeholder="Nombre...." type="text" name="txtNombre" id="" required>
+                <br>
+                <br>
+                <h5>Correo electrónico</h5>
+                <input class="col-p" placeholder="Email...." type="email" name="txtEmail" id="" required>
+                <br>
+                <br>
+                <h5>Número de teléfono</h5>
+                <input class="col-p" placeholder="+569...." type="number" name="txtTelefono" id="" required>
+                <br>
+                <br>
+                <h5>Mensaje</h5>
+                <input class="col-p" placeholder="Déjanos tu consulta y/o problema. Reparar su vehículo, facilitarle el repuesto que necesite,cambio de aceite, cualquier tipo de servicio, nuestra principal preocupación es la solución al problema del cliente." type="text" name="txtMensaje" id="" required>
+                <br>
+                <br>
+                <button onclick="enviarMensaje()">Enviar mensaje.</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function enviarMensaje() {
+          alert("Mensaje enviado correctamente");
+        }
+    </script>
+
+</body>
+<footer>
+    <h4>Taller Mecanico Rayo McQueen #Los Comendadores 1165 San Geronimo.</h4>
+</footer>
+</html>

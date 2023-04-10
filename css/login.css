@@ -1,0 +1,38 @@
+body{
+    background-color: WHITE;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#login {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+.login-input{
+    display: flex;
+    text-align: left;
+    margin: 10px 5px;
+    padding: 10px 20px;
+}
+
+input {
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 0px #fff, 0px -1px 0px #fff, 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 2px 1px #ccc, 0px -2px 1px #ccc;
+}
+
+.login-input input[type="email"] {
+    width: 200%;
+}
+
+.login-input input[type="password"] {
+    width: 200%;
+}

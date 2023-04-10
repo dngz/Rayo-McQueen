@@ -1,0 +1,62 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.nav-link{
+    font-size: large;
+}
+
+#banner img{
+    width: 100%;
+    height:450px;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    color: white;
+}
+#banner .contenedor h1{
+    font-size: 50px;
+    color: white;
+}
+#banner .contenedor h3{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#banner .contenedor a{
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    color: white;
+}
+#banner .contenedor a:hover{
+    background-color:yellowgreen;
+}
+
+footer{
+    background-color: black;
+    color: honeydew;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer h4{
+    font-size: large;
+}

@@ -1,0 +1,23 @@
+#blog .contenedor img{
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+#blog .contenedor article{
+    margin: 20px;
+}
+#blog{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+
+.nav-link{
+    font-size: large;
+}

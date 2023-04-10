@@ -1,0 +1,50 @@
+#nosotros{
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    margin-top: 55px;   
+}
+
+#nosotros h2{
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 40px;
+    font-size: xx-large;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    font-size: 19px;
+}
+
+
+.container p {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+section#nosotros {
+    margin-top: -10px;
+}
+
+#nosotros .container a{
+    text-decoration: none;
+    margin-top: 0px;
+    background-color: black;
+    padding: 15px;
+    display: block;
+    width: 125px;
+    border-radius: 25px;
+    color: white;
+}
+
+footer {
+    margin-top: 0;
+}
+
+#boton{
+    width: 100%;
+}

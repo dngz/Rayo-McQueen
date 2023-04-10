@@ -1,0 +1,78 @@
+*{
+    font-family: cursive;
+}
+
+
+/*Propiedades del banner que esta arriba, que ocupe el 100%,200px de altura,verde,letras negras, posicion fija, que no tenga margen a la izquierda
+ni arriba (idk pq cuando no tenia eso quedaba gap ahí)*/
+header{
+    width: 100%;
+    height: 200px;
+    background-color: yellowgreen;
+    color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+/*Propiedades de las imagenes que estan en el header (el logo) que tenga un margen a la izquierda de 60px y sea 200x200*/
+header img{
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 20px;
+    border-bottom: solid 1px white;
+    height: 40px;
+}
+nav {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 100vh; /*toma el alto del dispositivo*/
+    background-color: rgb(77, 72, 72,0.2);
+    transition: 1.5s;
+    transform: translateX(-100%);  
+}
+header input{
+    display: none;
+}
+header label{
+    float: right;
+    font-size: xx-large;
+    margin: 6px;
+}
+
+#menu-bar:checked~nav{
+    transform: translateX(0);
+}
+
+nav a:hover{
+    background-color:rgb(77, 72, 72,0.4);
+    transition: 0.5s;
+}
+
+@media (min-width:1024px){
+
+    nav{
+        position: static;
+        width: auto;
+        height: 100%;
+        background-color: yellowgreen;
+        display: flex; /*para que las cajas sean flexibles y se adapten a la pantallita*/
+        float: right;
+        transform: translateX(0); /*pa que no se traslade cuando tenga un minimo de 1024px la pantalla*/
+        
+    }
+    nav a{
+        border-bottom: none; /*quita una rayita que se pone abajo de las secciones*/
+    }
+    header label{ /*para que no se vea la checkbox*/
+        display: none;
+    }
+
+}
